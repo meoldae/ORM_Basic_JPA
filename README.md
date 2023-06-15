@@ -16,3 +16,6 @@ Inflern 자바 ORM 표준 JPA 프로그래밍
   - 연관관계의 주인은 외래키를 가지고 있는 테이블
   
   ```commit``` : [b8ec0d4](https://github.com/meoldae/ORM_Basic_JPA/commit/b8ec0d4e98c41e1f5ebf8a2122e480490da4ba83)
+- 다양한 연관관계 매핑    
+
+  ```commit``` : [45bb96f](https://github.com/meoldae/ORM_Basic_JPA/commit/45bb96f1893ad90f6e7749ac1cf7c0d9e2f16bb5)
