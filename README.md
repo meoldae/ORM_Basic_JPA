@@ -27,3 +27,12 @@ Inflern 자바 ORM 표준 JPA 프로그래밍
   - 공통 속성 상속 (```@MappedSuperclass```)
   
   ```commit``` : [d7dfe2e](https://github.com/meoldae/ORM_Basic_JPA/commit/d7dfe2e56bb28af52a4f27293c4248dc50c51b8e)
+  
+### 0x08. 프록시와 연관관계 정리
+  - ```getReference()```
+  - ```FetchType.LAZY``` 를 통해 프록시 객체를 사용하고 실제로 사용하는 시점에 초기화
+  - ```@ManyToOne, @OneToOne``` : 기본이 즉시로딩
+  - CASCADE : 연관된 엔티티도 함께 영속상태로 만들고 싶을 때 ( 연관관계가 두 개 이상이면 사용 금지 )
+  - orphanRemoval : 부모 엔티티와 연관관계가 끊어진 고아 객체를 자동으로 삭제 ( 이 역시 연관관계 하나일때만 사용 )
+  
+  ```commit``` : [eb28f3a](https://github.com/meoldae/ORM_Basic_JPA/commit/eb28f3a2d7b3c19ea99248b97da0a4d6e342ec08)
